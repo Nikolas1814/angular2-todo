@@ -1,1 +1,1 @@
-testing ora.pm asa
+testing ora.pm as
