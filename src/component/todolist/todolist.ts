@@ -8,10 +8,12 @@ import TodoItem from '../todoitem/todoitem';
   styleUrls: ['component/todolist/todolist.css'],
   directives: [FORM_DIRECTIVES, CORE_DIRECTIVES, TodoItem]
 })
+
 export default class TodoList {
   newItem = 'test';
   store: TodoStore;
 
+  
   constructor(store: TodoStore) {
     this.store = store;
   }
